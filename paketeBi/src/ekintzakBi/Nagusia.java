@@ -2,9 +2,11 @@
  * 2023(e)ko aza. 21(a)
  * Ioritz Lopetegi
  */
-package matematikak;
+package ekintzakBi;
 
 import java.util.Scanner;
+
+import matematikak.Eragiketak;
 
 // TODO: Auto-generated Javadoc
 /**
