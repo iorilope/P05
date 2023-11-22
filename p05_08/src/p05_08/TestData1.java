@@ -19,10 +19,8 @@ interface Data {
 	  public void setUrtea(int urtea);
 	  public String toString();
 	  public boolean equals(Object o);
-	  
+	 
 	}
-
-
 
 class SETDATA implements Data {
 	
