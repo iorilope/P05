@@ -26,9 +26,9 @@ interface Data {
 
 class SETDATA implements Data {
 	
-	private int eguna;
-	private int hilabetea;
-	private int urtea;
+	public int eguna;
+	public int hilabetea;
+	public int urtea;
 	
 	 public void setEguna(int eguna) {
 		 
