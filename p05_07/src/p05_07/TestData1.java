@@ -42,14 +42,11 @@ public class TestData1 {
 
 		//Ikusi berdinak diren
 		if (a.equals(g)) {
-			
 			System.out.println("Datak berdinak dira");
-			
 		}
 		else {
 			System.out.println("Datak desberdinak dira");
 		}
-		
 		sc.close();
 	}
 
