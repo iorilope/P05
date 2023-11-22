@@ -41,7 +41,15 @@ public class TestData1 {
 		a.setUrtea(Urtea2);
 
 		//Ikusi berdinak diren
-		System.out.println(	 a.equals(g));
+		if (a.equals(g)) {
+			
+			System.out.println("Datak berdinak dira");
+			
+		}
+		else {
+			System.out.println("Datak desberdinak dira");
+		}
+		
 		sc.close();
 	}
 
