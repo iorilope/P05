@@ -1,5 +1,6 @@
-/**
- * 
+/*
+ * 2023(e)ko aza. 28(a)
+ * Ioritz Lopetegi
  */
 package p05_08;
 
@@ -7,6 +8,7 @@ import java.util.Scanner;
 
 
 
+// TODO: Auto-generated Javadoc
 /**
  * 
  * @author Ioritz Lopetegi
@@ -42,7 +44,16 @@ class SETDATA implements Data {
 }
 
 
+/**
+ * The Class TestData1.
+ */
 public class TestData1 {
+	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String [] args){
 		Scanner sc = new Scanner(System.in);
 
