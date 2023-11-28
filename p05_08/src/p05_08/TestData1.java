@@ -47,6 +47,7 @@ public class TestData1 {
 		Scanner sc = new Scanner(System.in);
 
 		SETDATA g = new SETDATA();
+		
 		System.out.println("Sartu eguna");
 		int Eguna = sc.nextInt();
 		g.setEguna(Eguna);
