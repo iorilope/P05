@@ -10,10 +10,10 @@ package matematikak;
  */
 
 public class Eragiketak {
-	
+
 	/** The z1. */
 	public static int z1;
-	
+
 	/** The z2. */
 	public static int z2; 
 

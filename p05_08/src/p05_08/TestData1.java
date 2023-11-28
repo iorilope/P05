@@ -16,31 +16,31 @@ import java.util.Scanner;
 
 //Interfazea sortu metodoekin
 interface Data {
-	  public void setEguna(int eguna); 
-	  public void setHilabetea(int hilabetea); 
-	  public void setUrtea(int urtea);
-	  public String toString();
-	  public boolean equals(Object o);
-	 
-	}
+	public void setEguna(int eguna); 
+	public void setHilabetea(int hilabetea); 
+	public void setUrtea(int urtea);
+	public String toString();
+	public boolean equals(Object o);
+
+}
 //Interfazea inplementatu gure klasean
 class SETDATA implements Data {
-	
+
 	public int eguna;
 	public int hilabetea;
 	public int urtea;
-	
-	 public void setEguna(int eguna) {
-		 
-		 this.eguna = eguna;
-		 
-	 }
-	 public void setHilabetea(int hilabetea) {
-			this.hilabetea = hilabetea;
-		}
-	 public void setUrtea(int urtea) {
-			this.urtea = urtea;
-		}
+
+	public void setEguna(int eguna) {
+
+		this.eguna = eguna;
+
+	}
+	public void setHilabetea(int hilabetea) {
+		this.hilabetea = hilabetea;
+	}
+	public void setUrtea(int urtea) {
+		this.urtea = urtea;
+	}
 }
 
 
@@ -48,7 +48,7 @@ class SETDATA implements Data {
  * The Class TestData1.
  */
 public class TestData1 {
-	
+
 	/**
 	 * The main method.
 	 *
@@ -58,7 +58,7 @@ public class TestData1 {
 		Scanner sc = new Scanner(System.in);
 
 		SETDATA g = new SETDATA();
-		
+
 		System.out.println("Sartu eguna");
 		int Eguna = sc.nextInt();
 		g.setEguna(Eguna);
