@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @author Ioritz Lopetegi
  */
 
-
+//Interfazea sortu metodoekin
 interface Data {
 	  public void setEguna(int eguna); 
 	  public void setHilabetea(int hilabetea); 
@@ -23,7 +23,7 @@ interface Data {
 	  public boolean equals(Object o);
 	 
 	}
-
+//Interfazea inplementatu gure klasean
 class SETDATA implements Data {
 	
 	public int eguna;
