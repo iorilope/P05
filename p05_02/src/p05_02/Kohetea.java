@@ -16,11 +16,11 @@ public class Kohetea
 	//eraikitzailea
 	Kohetea () 
 	{
-			koheteKop++;
+		koheteKop++;
 	}
 
 	public int getKohetea () {
-			return koheteKop;
+		return koheteKop;
 	}
 
-	}
+}

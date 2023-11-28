@@ -9,14 +9,14 @@ package p05_02;
  */
 public class TestEstatikoak {
 	public static void main (String [] args) {
-	Kohetea k1 = new Kohetea ();
-	Kohetea k2 = new Kohetea ();
-	Kohetea k3 = new Kohetea ();
+		Kohetea k1 = new Kohetea ();
+		Kohetea k2 = new Kohetea ();
+		Kohetea k3 = new Kohetea ();
 
-	System.out.println (k1.getKohetea () );
-	System.out.println (k3.getKohetea () );
+		System.out.println (k1.getKohetea () );
+		System.out.println (k3.getKohetea () );
 
-}
+	}
 
 }
 
